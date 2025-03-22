@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/faculty_headshot.jpg" width="150" alt="Profile Picture">
+</p>
+
 # Welcome to My Personal Website
 
 This is my personal webpage. Here, you will find information about my teaching, research, projects, and interests.
@@ -23,11 +27,11 @@ I enjoy teaching a variety of **computer science courses** and applying **innova
 - CSC 4320: Operating Systems
 
 ## Projects & Publications
-You can find my research publications, projects, and contributions in my [Google Scholar](#) and [ResearchGate](#) profiles.
+You can find my research publications, projects, and contributions in my [Google Scholar](https://scholar.google.com/citations?user=pTlFm6IAAAAJ&hl=en&oi=ao) and [ResearchGate](https://www.researchgate.net/profile/Md-Mahfuzur-Rahman-15) profiles.
 
 ## Contact
 Feel free to connect with me via:
 - **Email**: [mrahman21@gsu.edu]
-- **GitHub**: [GitHub Profile](#)
+- **GitHub**: [GitHub Profile](https://github.com/mmrahman21)
 - **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/mrahman22/)
   
