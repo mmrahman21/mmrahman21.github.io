@@ -2,6 +2,11 @@
   <img src="images/faculty_headshot.jpg" width="250" alt="Profile Picture">
 </p>
 
+
+
+[Home](README.md) | [About](README.md) | [CV](cv.pdf) 
+
+
 # Welcome to My Personal Website
 
 This is my personal webpage. Here, you will find information about my teaching, research, projects, and interests.
