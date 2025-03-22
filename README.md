@@ -4,7 +4,7 @@
 
 
 
-[Home](README.md) | [About](README.md) | [CV](cv.pdf) 
+[Home](README.md)     |     [About](README.md)     |      [CV](images/CV_Md_Mahfuzur_Rahman_Jan_12_2025.pdf) 
 
 
 # Welcome to My Personal Website
