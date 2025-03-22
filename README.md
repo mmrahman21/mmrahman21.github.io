@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/faculty_headshot.jpg" width="300" alt="Profile Picture">
+  <img src="images/faculty_headshot.jpg" width="275" alt="Profile Picture">
 </p>
 
 
@@ -26,7 +26,7 @@ You can find my research publications, projects, and contributions in my [Google
 
 ## Contact
 Feel free to connect with me via:
-- **Email**: [mrahman21@gsu.edu]
+- **Email**: [mrahman21@gsu.edu](mrahman21@gsu.edu)
 - **GitHub**: [GitHub Profile](https://github.com/mmrahman21)
 - **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/mrahman22/)
   
