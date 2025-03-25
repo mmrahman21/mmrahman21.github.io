@@ -4,7 +4,7 @@
 
 
 
-[Home](README.md)     |     [About](README.md)     |      [Teaching](teaching.md)     |      [CV](images/CV_Md_Mahfuzur_Rahman_Jan_12_2025.pdf) 
+[Home](README.md)     |     [About](README.md)     |      [Teaching](teaching.md)     |      [Research](research.md)        |       [CV](images/CV_Md_Mahfuzur_Rahman_Jan_12_2025.pdf) 
 
 
 # Welcome to My Personal Website
