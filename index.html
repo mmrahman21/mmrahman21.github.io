@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Use the Inter font family */
+        
+        /* Force the same font stack as the example webpage */
         body {
-            font-family: 'Inter', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
     </style>
 </head>
-<body class="bg-white text-gray-800">
+<body class="bg-gray-50 text-gray-800">
 
     <div class="container mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-8">
 
@@ -25,15 +26,32 @@
         <header class="flex justify-between items-center border-b border-gray-200 pb-6">
             <!-- University/Institution Logo and Name -->
             <div class="flex items-center space-x-4">
-                <img src="images/gsu_logo.jpg" alt="University Logo" class="h-24 w-24 rounded-md">
+                <img src="images/gsu_logo.jpg" alt="University Logo" class="h-12 w-auto rounded-md">
                 <div>
                     <h2 class="text-lg font-semibold text-gray-900">Georgia State University</h2>
                     <p class="text-sm text-gray-500">Department of Computer Science</p>
                 </div>
             </div>
+            
+            <!-- My contact -->
+             <div class="max-w-5xl mx-auto flex items-center justify-between p-4">
+             <div class="flex items-center space-x-4">
+                      <img style="width: 256px; height: 256px; object-fit: cover;" 
+                        class="rounded-lg shadow-md" 
+                        src="images/faculty_headshot.jpg" 
+                        alt="Md Mahfuzur Rahman">
+             <div>
+            <h1 class="text-2xl font-bold">Md Mahfuzur Rahman</h1>
+             <p class="text-blue-700 font-medium">
+            Lecturer, <a href="https://cs.gsu.edu" class="underline">Department of Computer Science</a><br>
+            <a href="https://www.gsu.edu" class="underline">Georgia State University</a>, Atlanta, GA
+          </p>
+          <p>Email: <a href="mailto:mrahman21@gsu.edu" class="text-blue-600 underline">mrahman21@gsu.edu</a></p>
+        </div>
+      </div>
+
             <!-- Navigation Links -->
             <nav class="hidden md:flex items-center space-x-6">
-                <a href="#about" class="text-gray-600 hover:text-blue-600 font-medium transition-colors"></a>
                 <a href="#research" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Research</a>
                 <a href="#teaching" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Teaching</a>
                 <a href="#publications" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Publications</a>
@@ -75,22 +93,18 @@
                 <h3 class="text-2xl font-semibold text-gray-900 border-b border-gray-200 pb-2">About Me</h3>
                 <div class="mt-4 text-lg text-gray-700 leading-relaxed space-y-4">
                     <p>
-                        Dr. Rahman was born in Bangladesh and grew up amidst its green landscapes, where he completed his B.Sc. (Honours) and M.Sc. in Computer Science and Engineering. 
-                        He began his career as a full-time faculty member at a public university in Bangladesh in 2009. Since then, he has actively served as a Computer Science (CS) academic 
+                        Dr. <span class="font-semibold">Rahman</span> is a Lecturer of <a href="https://cs.gsu.edu" class="text-blue-600 underline">Computer Science</a> at 
+                        <a href="https://www.gsu.edu" class="text-blue-600 underline">Georgia State University</a>. He began his career as a full-time faculty member at a public university in Bangladesh in 2009. Since then, he has actively served as a Computer Science (CS) academic 
                         for almost nine years, teaching a diverse set of undergraduate and graduate-level CS courses, supervising students, and serving in various administrative roles.
                     </p>
 
                     <p>
-
-                    </p>
-                        His teaching interests primarily include areas such as Machine Learning, Deep Learning, Explainable AI, System-level Programming, Operating Systems, Data Structures, Algorithm Analysis and Design, 
-                        and Theory of Computation, among others. He adopts a hands-on approach to teaching and provides students with ample opportunities to challenge themselves so they can consolidate their learning and grow.
-                        In 2017, he joined Georgia State University (GSU) to pursue his Ph.D., and in 2019, he began working at the Tri-institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS) 
+                        In 2017, he joined Georgia State University (GSU) to pursue his Ph.D., and in 2019, he began working at the <a href="https://trendscenter.org/" class="text-blue-600 underline">Tri-institutional Center for Translational Research in Neuroimaging and Data Science (TReNDS)</a>. 
                         in Atlanta, Georgia, where he completed his Ph.D. and continued as a postdoctoral researcher until 2024. At TReNDS, Dr. Rahman and his colleagues focused on building 
                         explainability pipelines in neuroimaging, with the overarching goal of gaining insights into brain disorders. Since August 2024, he has been serving as a Lecturer in Computer Science at Georgia State University.
                     </p>
                     <p style="color: #0039A6; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px;">
-                        My primary research focuses on Explainable AI (XAI), interpretable machine learning, medical image computing, and computer vision. I am passionate about developing new explainability methods and evaluation metrics, creating AI-driven analysis and interpretation of medical images (including neuroimaging), and ensuring fairness, robustness, and interpretability in machine learning.
+                        His research focuses on Explainable AI (XAI), deep learning, machine learning, medical image computing, and computer vision.
                     </p>
                 </div>
             </section>
@@ -146,6 +160,17 @@
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <!-- Teaching Section -->
+            <section id="teaching" class="max-w-4xl mx-auto mt-12 px-4">
+                <h2 class="text-2xl font-bold border-b-2 border-blue-600 inline-block mb-4">Courses Taught</h2>
+                <ul class="list-disc list-inside text-lg leading-relaxed">
+                    <li><span class="bg-green-500 text-white px-2 py-0.5 rounded text-sm font-semibold">CSC 3320</span> System-level Programming (Fall 2024, Spring 2025, Fall 2025)</li>
+                    <li>  <span class="bg-green-500 text-white px-2 py-0.5 rounded text-sm font-semibold">CSC 4850/6850</span> Machine Learning (Summer 2025) </li>
+                    <li> <span class="bg-green-500 text-white px-2 py-0.5 rounded text-sm font-semibold">CSC 4320/6320</span> Operating Systems (Fall 2024, Spring 2025, Fall 2025)</li>
+
+                </ul>
             </section>
 
         </main>
